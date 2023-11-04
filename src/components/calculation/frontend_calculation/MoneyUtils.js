@@ -12,9 +12,7 @@ export const getAmount = (moneyUnit, value) => {
 };
 
 export const getDifference = (moneyUnit, oldValue, newValue) => {
-  const difference =
-    getAmount(moneyUnit, oldValue) - getAmount(moneyUnit, newValue);
-  return difference > 0.0 ? "+" + difference : difference;
+  return getAmount(moneyUnit, oldValue) - getAmount(moneyUnit, newValue);
 };
 
 export const getCurrency = (number) => {

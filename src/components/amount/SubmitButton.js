@@ -12,7 +12,7 @@ export const SubmitButton = ({ onClick }) => {
         variant="contained"
         endIcon={<SendIcon />}
       >
-        Bestätigen
+        Best&auml;tigen
       </Button>
     </Stack>
   );
